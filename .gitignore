@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+config/gemini.jsx
+
+gemini.jsx
+
+config
