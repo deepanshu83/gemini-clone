@@ -6,7 +6,7 @@ const SideBar = () => {
 
   return (
     <div
-      className={`sidebar py-6 px-4 min-h-screen bg-[#ecf1f7] flex flex-col justify-between transition-all duration-300
+      className={`sidebar py-5 px-3 min-h-screen bg-[#ecf1f7] flex flex-col justify-between transition-all duration-300
       ${extended ? 'w-48' : 'w-24'} 
       sm:${extended ? 'w-46' : 'w-20'}`}
     >
@@ -22,8 +22,8 @@ const SideBar = () => {
 
         {/* New Chat */}
         <div className="new-chat mt-8 flex items-center gap-2 py-2 px-3 bg-[#e6e8ec] hover:bg-[#cfd2d8] rounded-full text-xs text-gray-500 cursor-pointer">
-          <img className="w-4 sm:w-5" src="assets/plus_icon.png" alt="plus" />
-          {extended ? <p className="text-sm sm:text-base">New Chat</p> : null}
+          <img className="lg:w-4 md:w-3 w-2 " src="assets/plus_icon.png" alt="plus" />
+          {extended ? <p className="text-[10px] sm:text-[12px] lg:text-[15px] md:text-[14px]">New Chat</p> : null}
         </div>
 
         {/* Recent */}
@@ -31,8 +31,8 @@ const SideBar = () => {
           <div className="recent flex flex-col">
             <p className="mt-6 mb-4 text-xs sm:text-sm text-gray-500">Recent</p>
             <div className="recententry lg:w-40 md:w-40 flex items-center gap-2 p-2 text-sm sm:text-base rounded-full text-[#282828] cursor-pointer hover:bg-[#dce0e6]">
-              <img className="w-4 sm:w-5" src="assets/message_icon.png" alt="message" />
-              <p>What is React...</p>
+              <img className="lg:w-4 md:w-3 w-2 " src="assets/message_icon.png" alt="message" />
+              <p className='ext-[10px] sm:text-[12px] lg:text-[15px] md:text-[14px]'>What is React...</p>
             </div>
           </div>
         ) : null}
