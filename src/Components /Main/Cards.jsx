@@ -3,7 +3,7 @@ import React from 'react'
 const Cards = () => {
   return (
 
-    <div className="cards gap-3 hidden justify-items-center sm:grid md:grid lg:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+    <div className="cards py-14 gap-4 hidden justify-items-center sm:grid md:grid lg:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         <div className="card hover:bg-slate-300 cursor-pointer bg-slate-200 p-3.5 w-full sm:w-44 rounded-2xl flex flex-col justify-between">
           <p className="text-sm sm:text-base leading-snug">
             Suggest beautiful places to see on an upcoming road trip
